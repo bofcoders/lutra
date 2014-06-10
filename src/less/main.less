@@ -1,0 +1,53 @@
+@import "mixins_variables.less";
+
+@font-face {
+     font-family: 'Lavanderia';
+     src: url('./fonts/lavanderia_regular.otf'),
+          url('./fonts/lavanderia_regular-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+     font-family: 'Lavanderia Sturdy';
+     src: url('./fonts/lavanderia_sturdy.otf'),
+          url('./fonts/lavanderia_sturdy-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow: -moz-scrollbars-vertical;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    position: relative;
+    text-rendering: optimizelegibility;
+    font-size: 1em;
+    line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    > header {
+        h1 {
+            font-family: "Lavanderia";
+            color: @bof_color_orange;
+            font-size: 20rem;
+            font-weight: normal;
+            line-height: 20rem;
+            margin: 0;
+            padding: 5rem 0 0 0;
+            text-align: center;
+        }
+    }
+}

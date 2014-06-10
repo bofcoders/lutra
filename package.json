@@ -1,0 +1,32 @@
+{
+  "name": "lutra",
+  "version": "0.0.0",
+  "description": "Barrel of Fun Website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herereadthis/lutra.git"
+  },
+  "keywords": [
+    "Barrel",
+    "of",
+    "Fun",
+    "bacon"
+  ],
+  "author": {
+    "name": "BofCorps",
+    "url": "http://barrel-of-fun.com/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herereadthis/lutra/issues"
+  },
+  "homepage": "https://github.com/herereadthis/lutra",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
