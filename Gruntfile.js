@@ -10,7 +10,7 @@ module.exports = function(grunt) {
         less: {
             lutra: {
                 options: {
-                    paths: ["./src/less"],
+                    paths: ["./src/less", "./bellmaker/src/less"],
                     cleancss: true
                 },
                 files: {
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
         watch: {
             // runs less task when any less files change
             less: {
-                files: ["./src/less/*"],
+                files: ["./src/less/*", "./bellmaker/src/less/*"],
                 tasks: ["less"]
             },
             html: {

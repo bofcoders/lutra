@@ -18,8 +18,8 @@ TODO: Add Gruntfile task to get the site to host with ```grunt server```
 ## Build
 
 ```
-npm install
-grunt
+$ npm install
+$ grunt
 ```
 
 
