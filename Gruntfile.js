@@ -8,12 +8,9 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         // compiles LESS file to minified CSS
         less: {
-            // 'less:redwall' will pull bellmaker's CSS into redwall CSS
             lutra: {
                 options: {
                     paths: ["./src/less"],
-                    // yuicompress: true,
-                    // compress: true,
                     cleancss: true
                 },
                 files: {
@@ -34,9 +31,9 @@ module.exports = function(grunt) {
     });
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    // we'll also need uglify, autoprefixer, connect
 
     grunt.registerTask('default', [
-        // 'uglify'
         'less',
         'watch'
     ]);
